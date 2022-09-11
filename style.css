@@ -1,0 +1,133 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  h2{
+    font-size: 3em;
+  }
+  p{
+    font-size: 2em;
+  }
+  
+        /*Nav Section*/
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background: #be3144;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    position: sticky;
+    margin-top: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+    text-decoration: none;
+  }
+  a#navb{
+    text-decoration: none;
+    color:	#FFF8DC;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: flex;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  
+  .nav-list a:hover {
+    background: #45567d;
+  }
+  
+  
+        /*Welcome Section*/
+  .welcome{
+    box-shadow: 0 1.5em 3em rgba(0,0,0,0.3);
+    width: 25em;
+    box-sizing: border-box;
+    transition-duration: 1s;
+    margin: 0 auto 0 auto;
+  }
+  .welcome > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  .welcome > p{
+    font-family: sans-serif;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .welcome:hover{
+    transform:scale(1.1);
+    box-shadow: 0 1.8em 3.6em rgba(0,0,0,0.30);
+  }
+  #image{
+    width: 25em;
+    height: auto;
+    display: block;
+  }
+  
+      /*About Section*/
+  #ifl, #iu, #pp{
+    margin: 0 auto 0 auto;
+    display: flex;
+    width: 200px;
+    height: 150px;
+  }
+  #school{
+    text-align: center;
+  }
+  p.text{
+    text-align: justify;
+    margin: 0 1em 2em 1em;
+  }
+  
+  /*Work Section*/
+  .item1, .item2, .item3, .item4{
+    border: 3px solid black;
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  #img1, #img2, #img3, #img4{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 240px;
+    height: 180px;
+  }
+  p#text{
+    text-align: justify;
+    margin: 1em 1em 1em 1em;
+  }
+  
+  /*Contact Section*/
+  a#contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 1em;
+  }
+  
+  #copy{
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
